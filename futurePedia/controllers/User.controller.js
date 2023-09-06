@@ -92,7 +92,7 @@ async function login(req, res) {
 
                         console.log("Userdata", Userdata);
                         res.status(200).json({
-                            message: " Success",
+                            message: "Success",
                             data: Userdata,
                             status: "1",
                         });

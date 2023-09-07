@@ -18,14 +18,14 @@ try {
         process.exit(1)
     }
 module.exports = {
-    Product: require("../futurePedia/models/product.model"),
-    Favourites: require("../futurePedia/models/Favourites.model"),
-    News: require("../futurePedia/models/news.model"),
-    User: require("../futurePedia/models/user.model"),
-    Category: require("../futurePedia/models/category.model"),
-    Feature: require("../futurePedia/models/Feature.model"),
-    Pricing: require("../futurePedia/models/pricing.model"),
-    Blog: require("../futurePedia/models/blog.model"),
-    Comment: require("../futurePedia/models/comment.model"),
+    Product: require("../src/models/product.model"),
+    Favourites: require("../src/models/Favourites.model"),
+    News: require("../src/models/news.model"),
+    User: require("../src/models/user.model"),
+    Category: require("../src/models/category.model"),
+    Feature: require("../src/models/Feature.model"),
+    Pricing: require("../src/models/pricing.model"),
+    Blog: require("../src/models/blog.model"),
+    Comment: require("../src/models/comment.model"),
 
 };

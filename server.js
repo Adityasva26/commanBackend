@@ -28,7 +28,7 @@ app.use(jwt());
 
 
 // api routes
-app.use('/api/futurePedia', require('./futurePedia/futurePedia.routes'));
+app.use('/admin', require('./src/admin.routes'));
 
 // global error handler
 app.use(errorHandler);
